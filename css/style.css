@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: lavender !important;
+}
+.nav-link  {
+    color: blueviolet !important;
+}
+.jumbotron {
+  background-image: url(../images/silver.jpg);
+  font-family: monospace;
+}
+h1 {
+color: dimgrey;
+shape-rendering: crispEdges;
+}
+span {
+    color: blueviolet;
+}
+.profile {
+  border: 10x !important;
+  border-radius: 100px !important;
+  height: 200px;
+  width: auto;
+}
+
+.about-col {
+  margin: 10px;
+  max-width: 50%;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
