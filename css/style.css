@@ -1,11 +1,13 @@
 .navbar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background: lavender !important;
 }
 .nav-link  {
     color: blueviolet !important;
 }
+
 .jumbotron {
   background-image: url(../images/silver.jpg);
   font-family: monospace;
@@ -33,4 +35,10 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+footer {
+  font-family: monospace;
+  font-size: larger;
+  background-color: lavender;
+  
 }
