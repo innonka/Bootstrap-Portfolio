@@ -36,29 +36,28 @@ span {
 .about-col {
   margin: 10px;
   max-width: 50%;
-
 }
 .about-body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-footer {
+.footer {
   text-align: center;
-padding:5%;
-margin: 10px;
+  padding: 5%;
+
   font-size: larger;
   background-color: lavender;
   padding-top: 30px;
-
 }
 .progress-text {
   font-size: larger;
-  color:black !important;
+  font-weight: bolder;
+  color: black !important;
 }
 h2 {
   text-align: center;
-  
+
   font-weight: bolder;
 }
 .progress-bar {
@@ -68,4 +67,14 @@ h2 {
   width: 100%;
   height: 15vw;
   object-fit: cover;
+}
+button:hover {
+  background-color: brown;
+  transition: 0.7;
+}
+.nav-item:hover {
+  background-color: silver;
+  transition: 0.7s;
+
+  border-radius: 10px;
 }
